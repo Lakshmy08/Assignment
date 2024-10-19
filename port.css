@@ -1,0 +1,59 @@
+/*Used to resize according to device's screen size*/
+@media screen and (max-width: 600px) {
+    header, main, footer {
+        padding: 10px;
+    }
+}
+body{
+    background-color: black;
+}
+
+#head>h1{
+    text-align: center;
+    color:aliceblue;
+    font-size: 50px;
+
+}
+#head>p{
+    overflow:hidden;
+    color:aliceblue;
+    margin-top: 50px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+#head>img{
+    float:left;
+    border-radius:100%;
+}
+#skill>h2{
+    color:aliceblue;
+    margin-left:20px ;
+    font-size: 30px;
+}
+#projects>h2{
+    color:aliceblue;
+    margin-left:20px ;
+    font-size: 30px;
+}
+#certi>h2{
+    color:aliceblue;
+    margin-left:20px ;
+    font-size: 30px;
+}
+#foot>h2{
+    color:aliceblue;
+    margin-left:20px ;
+    font-size: 30px;
+    text-align: center;
+}
+#foot>form{
+    color:aliceblue;
+    margin-left:20px ;
+
+}
+.corner1{
+    border-radius: 50%;
+ }
+ #foot>p{
+    color: aliceblue;
+ }
